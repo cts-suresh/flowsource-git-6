@@ -4,9 +4,6 @@ metadata:
   name: sdlc-plugins-6
   title: SDLC-6
   description: SDLC plugin for Flowsource
-  links:
-    - title: Blackduck Website
-      url: https://github.com/cts-suresh/flowsource-git-6  
   annotations:
     # For GitHub plugin
     github.com/project-slug: cts-suresh/flowsource-git-6
