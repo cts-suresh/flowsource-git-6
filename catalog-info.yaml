@@ -1,0 +1,39 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sdlc-plugins-6
+  title: SDLC-6
+  description: SDLC plugin for Flowsource
+  links:
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Backstage Website
+      url: https://backstage.io/
+    - title: Blackduck Website
+      url: https://github.com/cts-suresh/flowsource-git-6  
+  annotations:
+    # For GitHub plugin
+    github.com/project-slug: cts-suresh/flowsource-git-6
+    flowsource/github-repo-owner: cts-suresh
+    flowsource/github-repo-name: flowsource-git-6
+    backstage.io/techdocs-ref: dir:.
+    # For JIRA plugin
+    flowsource/jira-project-key: ISGFS
+    flowsource/durationInDays: '90'
+ 
+    # For Jenkins plugin
+    # flowsource/jenkins-pipelines: fs-sdlc/main
+  tags:
+    - github
+    - jira
+    - jenkins
+    - flowsource
+  links:
+    - url: https://github.com/cts-suresh/flowsource-git-6
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/platform-team
+  system: flowsource
