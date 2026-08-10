@@ -5,8 +5,6 @@ metadata:
   title: SDLC-6
   description: SDLC plugin for Flowsource
   links:
-    - title: Documentation
-      url: https://backstage.io/docs
     - title: Backstage Website
       url: https://backstage.io/
     - title: Blackduck Website
